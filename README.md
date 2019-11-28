@@ -13,6 +13,16 @@ Commit the change:
 Push the change to your remote repository:
 <b>git push origin master</b>
 
+## Create a new repository on command line:
+<Credit goes to: github.com>
+echo "# python-tips" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/ninyancat13/python-tips.git
+git push -u origin master
 
-
-
+## Push an existing repository from the command line
+<Credit goes to: github.com>
+git remote add origin https://github.com/ninyancat13/python-tips.git
+git push -u origin master
