@@ -6,17 +6,18 @@ https://github.community/t5/How-to-use-Git-and-GitHub/How-to-delete-multiples-fi
 
 ```In the command-line, navigate to your local repository.
 Ensure you are in the default branch:
-<b>git checkout master</b>
+git checkout master
 The rm -r command will recursively remove your folder:
-<b>git rm -r folder-name</b>
+git rm -r folder-name
 Commit the change:
-<b>git commit -m "Remove file in the repository"</b>
+git commit -m "Remove file in the repository"
 Push the change to your remote repository:
-<b>git push origin master</b> 
+git push origin master
 ```
 
 ## Create a new repository on command line:
 <Credit goes to: github.com>
+  
 ```echo "# python-tips" >> README.md
 git init
 git add README.md
@@ -27,6 +28,7 @@ git push -u origin master
 
 ## Push an existing repository from the command line
 <Credit goes to: github.com>
+  
 ```git remote add origin https://github.com/ninyancat13/python-tips.git
 git push -u origin master
 ```
