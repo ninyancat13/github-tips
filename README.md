@@ -5,12 +5,16 @@ Github commands to remember.
 https://github.community/t5/How-to-use-Git-and-GitHub/How-to-delete-multiples-files-in-Github/td-p/4623
 
 In the command-line, navigate to your local repository.
+
 Ensure you are in the default branch:
 ```git checkout master```
+
 The rm -r command will recursively remove your folder:
 ```git rm -r folder-name```
+
 Commit the change:
 ```git commit -m "Remove file in the repository"```
+
 Push the change to your remote repository:
 ```git push origin master```
 
