@@ -42,7 +42,7 @@ https://gist.github.com/shaunlebron/746476e6e7a4d698b373 .
 World
 ``` 
 
-Hello
+Hello . 
 World
 
 ```Hello
@@ -55,7 +55,7 @@ Hello World
 World
 ```
 
-Hello
+Hello .  
 World
 
 ```Hello
@@ -63,6 +63,6 @@ World
 World
 ```
 
-Hello
+Hello .  
 
 World
