@@ -35,3 +35,30 @@ Credit goes to: github.com
 ```git remote add origin https://github.com/ninyancat13/python-tips.git
 git push -u origin master
 ```
+## Line Break
+https://gist.github.com/shaunlebron/746476e6e7a4d698b373 . 
+
+```Hello  (<-- two spaces)
+World
+``` 
+Hello
+World
+
+```Hello
+World
+```
+Hello World
+
+```Hello<br/>
+World
+```
+Hello
+World
+
+```Hello
+
+World
+```
+Hello
+
+World
