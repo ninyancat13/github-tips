@@ -41,17 +41,20 @@ https://gist.github.com/shaunlebron/746476e6e7a4d698b373 .
 ```Hello  (<-- two spaces)
 World
 ``` 
+
 Hello
 World
 
 ```Hello
 World
 ```
+
 Hello World
 
 ```Hello<br/>
 World
 ```
+
 Hello
 World
 
@@ -59,6 +62,7 @@ World
 
 World
 ```
+
 Hello
 
 World
