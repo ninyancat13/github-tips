@@ -21,6 +21,7 @@ Push the change to your remote repository:
 ## Create a new repository on command line
   
 ```echo "# python-tips" >> README.md
+touch README.md
 git init
 git add README.md
 git commit -m "first commit"
