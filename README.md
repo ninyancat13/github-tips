@@ -22,6 +22,7 @@ https://gist.github.com/shaunlebron/746476e6e7a4d698b373 .
 
 ## Delete a file in a repository:
 https://github.community/t5/How-to-use-Git-and-GitHub/How-to-delete-multiples-files-in-Github/td-p/4623  
+
 In the command-line, navigate to your local repository.  
 Ensure you are in the default branch:  
 ```git checkout master```  
