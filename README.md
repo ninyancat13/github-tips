@@ -18,8 +18,7 @@ Commit the change:
 Push the change to your remote repository:
 ```git push origin master```
 
-## Create a new repository on command line:
-Credit goes to: github.com
+## Create a new repository on command line
   
 ```echo "# python-tips" >> README.md
 git init
@@ -30,7 +29,6 @@ git push -u origin master
 ```
 
 ## Push an existing repository from the command line
-Credit goes to: github.com
   
 ```git remote add origin https://github.com/ninyancat13/python-tips.git
 git push -u origin master
