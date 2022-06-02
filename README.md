@@ -61,10 +61,15 @@ https://docs.github.com/en/get-started/importing-your-projects-to-github/importi
 ```git remote add origin https://github.com/ninyancat13/python-tips.git
 git push -u origin master
 ```
+
 OR simply
 ```
 git push
 ```
+
+Note:
+- Origin means the remote repository on Github itself.
+- We use -u origin master because technically, the -u flag adds a tracking reference to the upstream server you are pushing to. What is important here is that this lets you do a git pull without supplying any more arguments. For example, once you do a git push -u origin master, you can later call git pull and git will know that you actually meant git pull origin master.
 
 ## Line breaks in a md file
 https://gist.github.com/shaunlebron/746476e6e7a4d698b373 . 
