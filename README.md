@@ -43,7 +43,7 @@ git push -u origin main
 
 Note:
 - Why use git init?
-    - The main purpose of `git init` is for projects that already exist that need to be turned into a repository and saved to Github. Unlike the `git clone` command, you do not transfer remote files to local. Instead it is more likely you will use `git init` when you actually already had a project on local (whether it already be a local repo or just an ordinary file with scripts) and you then want to 'convert' it over to a remote Github repo to save. In most cases, you will probably use `git clone` method as it is the easiest.
+    - The main purpose of `git init` is for projects that already exist that need to be turned into a repository and saved to Github. Unlike the `git clone` command, you do not transfer remote files to local. Instead it is more likely you will use `git init` when you actually already had a project on local (whether it already be a local repo or just an ordinary file with scripts) and you then want to 'convert' it over to a remote Github repo to save. In most cases, you will probably use `git clone` method as it is easier to first create the repo on the UI and then clone it to remote, and then start a project.
     
 - I want to do everything in the command line without touching Github?
     - Use Github Command Line Interface. This would allow you to go from start to finish without interacting with the Github UI in any way.
