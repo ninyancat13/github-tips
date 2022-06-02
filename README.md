@@ -1,5 +1,5 @@
 # github-tips
-Github commands to remember. Can also visit Git Guides for more detailed information.
+Github commands to remember.
 
 ## Create a new repository
 
@@ -94,3 +94,5 @@ git merge new-branch
 git push
 ```
  
+Reference:
+A mix of Stackoverflow and Git Guides 
