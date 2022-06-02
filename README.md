@@ -23,7 +23,7 @@ Note:
 
 - You still need to go into the Github UI to create a repository called 'new-repo' for this to work. However you could use something like a github command line interface to bypass this (see notes underneath). 
 
-Create a new repository (with new readme.md file) and push to Github
+Create a new repository (with new readme.md file) and then push to Github
 ```
 echo "# new-repo" >> README.md (OR 'touch README.md' works fine too)
 git init
@@ -33,14 +33,27 @@ git branch -M main
 git remote add origin https://github.com/ninyancat13/new-repo.git
 git push -u origin main
 ```
+*To be fairly honest, I don't really see the point of using `git init` like this when it is much easier to just use `git clone` if we are creating a new repository. Maybe I am wrong though...
 
-If you already have the <b>repository</b>* on your local, but you want to push it to Git use
+If you already have the <b>repository</b>* on your local, but you want to push it to Git just use
 ```
 git remote add origin https://github.com/ninyancat13/new-repo.git
 git branch -M main
 git push -u origin main
 ```
 *I say repository here on purpose because it is not just a file with scripts. It is a repository (aka no need to run git init)
+
+
+If you have the directory you want to convert to repository and put on Github, first go into the directory and then run:
+```
+git init
+git add --all
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/ninyancat13/new-repo.git
+git push -u origin main
+```
+* I created this one by myself using combination of the two above. I believe it should work. Will test it.
 
 Note:
 - Why use git init?
