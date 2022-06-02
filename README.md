@@ -1,25 +1,27 @@
 # github-tips
-Github commands to remember. Can also visit Git Guides for more detailed information: 
+Github commands to remember. Can also visit Git Guides for more detailed information.
 
 ## Create a new repository
 
-### Git clone: starting afresh (the simplest way)
+### `Git clone`: starting afresh (the simplest way)
 1. Create repository on github UI
 2. Go to command line and type 
 ```
 git clone <URL of repository>
 ```
 Note:
-- git clone is basically a combination of:
+- `git clone` is basically a combination of:
     - `git init` (create the local repository)
     - `git remote add` (add the URL to that repository)
     - `git fetch` (fetch all branches from that URL to your local repository)
     - `git checkout` (create all the files of the main branch in your working tree)
 
-### Git init: when your project already exists locally, but it doesn't have Git yet. 
-Git init turns any directory into a Git repository.
-Note: 
-- You still need to go into the Github UI to create a repository called 'new-repo' for this to work. However you could use something like a github command line interface to bypass this (see notes underneath). The main purpose of `git init` is for projects that already exist that need to be turned into a repository and saved to Github.
+    Aka, it not only creates the remote repository but copies all of the remote files to your local too. 
+
+### `Git init`: when your project already exists locally, but it doesn't have Git yet. 
+`Git init` turns any directory into a Git repository.
+
+- You still need to go into the Github UI to create a repository called 'new-repo' for this to work. However you could use something like a github command line interface to bypass this (see notes underneath). 
 
 Create a new repository (with new readme.md file) and push to Github
 ```
@@ -32,7 +34,7 @@ git remote add origin https://github.com/ninyancat13/new-repo.git
 git push -u origin main
 ```
 
-### If you already have the repository on your local, but you want to push to Git
+If you already have the repository on your local, but you want to push it to Git use
 ```
 git remote add origin https://github.com/ninyancat13/new-repo.git
 git branch -M main
@@ -40,6 +42,9 @@ git push -u origin main
 ```
 
 Note:
+- Why use git init?
+    - The main purpose of `git init` is for projects that already exist that need to be turned into a repository and saved to Github. Unlike the `git clone` command, you do not transfer remote files to local. Instead it is more likely you will use `git init` when you actually already had a project on local (whether it already be a local repo or just an ordinary file with scripts) and you then want to 'convert' it over to a remote Github repo to save. In most cases, you will probably use `git clone` method as it is the easiest.
+    
 - I want to do everything in the command line without touching Github?
     - Use Github Command Line Interface. This would allow you to go from start to finish without interacting with the Github UI in any way.
 https://docs.github.com/en/get-started/importing-your-projects-to-github/importing-source-code-to-github/adding-locally-hosted-code-to-github?fbclid=IwAR1zg-NPyN05pl4N2Lvs_zjCl1UgiAL0D7Sve3YItNCyQW-d5f4uswM3dsU
