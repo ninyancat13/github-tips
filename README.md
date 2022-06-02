@@ -67,7 +67,8 @@ https://docs.github.com/en/get-started/importing-your-projects-to-github/importi
     - So with echo >> file , you get one byte written to the file. If the file already existed, then it would have one byte added to it, because you used >> (append) instead of > (overwrite). touch creates a file if it didn't already exist, and updates the timestamps on it otherwise.
 
 - Why use something like 'git branch -M main'?
-    - -M is a flag (shortcut) for --move --force per the docs page on git branch. It renames the branch main (since the default branch name for repositories created using the command line is master, while those created in GitHub [starting in Oct. 2020] have a default name of main) and forces it (allows renaming of the branch even if the new branch name already exists).
+    - Spurred by the rise in racism cases across the US, GitHub recently renamed its 'master' branch to 'main'. 
+    - -M is a flag (shortcut) for --move --force per the docs page on git branch. It renames the branch main (since the default branch name for repositories created using the command line is master, while those created in GitHub [starting in Oct. 2020] have a default name of main) and forces it (allows renaming of the branch even if the new branch name already exists). 
 
 ## Push an existing repository from the command line
   
