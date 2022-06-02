@@ -34,12 +34,13 @@ git remote add origin https://github.com/ninyancat13/new-repo.git
 git push -u origin main
 ```
 
-If you already have the repository on your local, but you want to push it to Git use
+If you already have the <b>repository</b>* on your local, but you want to push it to Git use
 ```
 git remote add origin https://github.com/ninyancat13/new-repo.git
 git branch -M main
 git push -u origin main
 ```
+*I say repository here on purpose because it is not just a file with scripts. It is a repository (aka no need to run git init)
 
 Note:
 - Why use git init?
