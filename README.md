@@ -53,7 +53,7 @@ git branch -M main
 git remote add origin https://github.com/ninyancat13/new-repo.git
 git push -u origin main
 ```
-* I created this one by myself using combination of the two above. I believe it should work. Will test it.
+*I created this one by myself using combination of the two above. I believe it should work. Will test it soon.
 
 Note:
 - Why use git init?
