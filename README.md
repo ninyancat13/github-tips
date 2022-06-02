@@ -43,6 +43,7 @@ Push the change to your remote repository:
 git checkout master
 git branch new-branch
 git checkout new-branch
+... create your code ... e.g. vim code.py
 git add -A
 git commit -m "initial commit"
 git checkout master
