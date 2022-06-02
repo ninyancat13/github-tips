@@ -1,4 +1,4 @@
-# github-tips
+# git & github-tips
 Github commands to remember.
 
 ## Create a new repository
