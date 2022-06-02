@@ -17,6 +17,11 @@ git push -u origin master
 ```git remote add origin https://github.com/ninyancat13/python-tips.git
 git push -u origin master
 ```
+OR simply
+```
+git push
+```
+
 ## Line breaks in a md file
 https://gist.github.com/shaunlebron/746476e6e7a4d698b373 . 
 
