@@ -113,6 +113,12 @@ git checkout master
 git merge new-branch
 git push
 ```
+
+Another simpler way to branch
+```
+git switch -C bugfix
+```
+This one effectively creates a branch whilst also changing to the branch (checking it out) too.
  
 Reference:
 A mix of Stackoverflow and Git Guides 
