@@ -120,11 +120,6 @@ git switch -C bugfix
 ```
 This one effectively creates a branch whilst also changing to the branch (checking it out) too.
  
-## Command line 
-### Delete folder
-```
-rmdir -rf folder_name
-```
  
 Reference:
 A mix of Stackoverflow and Git Guides 
