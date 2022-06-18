@@ -95,7 +95,7 @@ In the command-line, navigate to your local repository.
 Ensure you are in the default branch:  
 ```git checkout master```  
 The rm -r command will recursively remove your folder:  
-```git rm -r folder-name```  
+```git rm -r file-name```  
 Commit the change:  
 ```git commit -m "Remove file in the repository"```  
 Push the change to your remote repository:  
@@ -114,11 +114,17 @@ git merge new-branch
 git push
 ```
 
-Another simpler way to branch
+### Another simpler way to branch
 ```
 git switch -C bugfix
 ```
 This one effectively creates a branch whilst also changing to the branch (checking it out) too.
+ 
+## Command line 
+### Delete folder
+```
+rmdir -rf folder_name
+```
  
 Reference:
 A mix of Stackoverflow and Git Guides 
