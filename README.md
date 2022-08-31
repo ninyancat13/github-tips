@@ -73,7 +73,7 @@ https://docs.github.com/en/get-started/importing-your-projects-to-github/importi
 ## Push an existing repository from the command line
   
 ```git remote add origin https://github.com/ninyancat13/python-tips.git
-git push -u origin master
+git push -u origin main
 ```
 
 OR simply
@@ -83,7 +83,7 @@ git push
 
 Note:
 - Origin means the remote repository on Github itself.
-- We use -u origin master because technically, the -u flag adds a tracking reference to the upstream server you are pushing to. What is important here is that this lets you do a git pull without supplying any more arguments. For example, once you do a git push -u origin master, you can later call git pull and git will know that you actually meant git pull origin master.
+- We use -u origin main because technically, the -u flag adds a tracking reference to the upstream server you are pushing to. What is important here is that this lets you do a git pull without supplying any more arguments. For example, once you do a git push -u origin main, you can later call git pull and git will know that you actually meant git pull origin main.
 
 ## Line breaks in a md file
 https://gist.github.com/shaunlebron/746476e6e7a4d698b373 . 
@@ -93,23 +93,23 @@ https://github.community/t5/How-to-use-Git-and-GitHub/How-to-delete-multiples-fi
 
 In the command-line, navigate to your local repository.  
 Ensure you are in the default branch:  
-```git checkout master```  
+```git checkout main```  
 The rm -r command will recursively remove your folder:  
 ```git rm -r file-name```  
 Commit the change:  
 ```git commit -m "Remove file in the repository"```  
 Push the change to your remote repository:  
-```git push origin master```  
+```git push origin main```  
 
 ## Branching example
 ```
-git checkout master
+git checkout main
 git branch new-branch
 git checkout new-branch
 ... create your code ... e.g. vim code.py
 git add -A
 git commit -m "initial commit"
-git checkout master
+git checkout main
 git merge new-branch
 git push
 ```
